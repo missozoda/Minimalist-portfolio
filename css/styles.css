@@ -344,3 +344,80 @@ only screen and (                min-resolution: 2dppx) {
   text-transform: uppercase;
   color: var(--grayish-dark-blue);
 }
+
+/* CONTACT ME SECTION */
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.contact-me__heading {
+  width: 350px;
+  margin: 0;
+
+  padding: 0;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: var(--grayish-dark-blue);
+}
+
+.contact-me__line {
+  width: 534px;
+  height: 1px;
+  margin-right: 32px;
+  margin-left: 32px;
+  background-color: var(--grayish-dark-blue);
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+.contact-me__link {
+  display: inline-block;
+  padding: 17px 35px;
+  text-decoration: none;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 1px solid var(--grayish-dark-blue);
+  color: var(--grayish-dark-blue);
+}
+
+/* Footer */
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: var(--grayish-dark-blue);
+}
+
+.site-footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link{
+  color: white;
+}
+
+.footer__icon-list {
+  margin: 0;
+  padding: 0;
+  margin-left: 530px;
+  list-style-type: none;
+  display: flex;
+}
+
+.footer__icon-item:not(last-child) {
+  margin-right: 15px;
+} 
